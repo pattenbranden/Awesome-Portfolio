@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "D5n6sa4R2211",
-    "database": "corona_blog",
-    "host": "localhost",
+    "username": "o7y2k7ggsuvfkspa",
+    "password": "ugl9gke6yulyd05e",
+    "database": "jfum41q7oxp613n3",
+    "host": "h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
