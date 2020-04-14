@@ -1,0 +1,221 @@
+.list-group-item {
+  line-height: 2.5;
+}
+
+html {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: rgb(0, 4, 50);
+  background: linear-gradient(
+    223deg,
+    rgba(0, 4, 50, 0.8043418050814075) 0%,
+    rgba(6, 17, 49, 1) 47%,
+    rgba(34, 255, 241, 0.5970588919161415) 71%,
+    rgba(27, 38, 98, 1) 79%,
+    rgba(27, 38, 98, 0.5998600123643207) 84%
+  );
+  background-attachment: fixed;
+}
+body {
+  background: transparent;
+  overflow-x: hidden;
+}
+.navbar {
+  z-index: 6;
+  position: fixed;
+  width: 100%;
+}
+#profile-picture {
+  width: 20%;
+  float: left;
+}
+#about-me {
+  font-size: large;
+  line-height: 2em;
+  background-color: white;
+  border: 5px solid lightcoral;
+  border-radius: 15px;
+  text-shadow: 2px 2px 10px white, -2px -2px 10px white;
+}
+.body-element {
+  border: 5px solid lightcoral;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px;
+
+  background: rgb(0, 4, 50);
+  background: linear-gradient(
+    223deg,
+    rgba(0, 4, 50, 0.13767513841474088) 0%,
+    rgba(6, 17, 49, 0.1292717770702031) 47%,
+    rgba(34, 255, 241, 0.1292717770702031) 71%,
+    rgba(27, 38, 98, 0.19369754737832634) 79%,
+    rgba(27, 38, 98, 0.18529418603378855) 84%
+  );
+  background-color: white;
+  margin: 80px 0 5% 0;
+  z-index: 5;
+  font-family: "made_miragethin";
+}
+.element-title {
+  background-color: darkblue;
+  color: white;
+  font-weight: bolder;
+  float: left;
+  padding: 15px;
+  margin-top: 1%;
+  border: 3px groove lightcoral;
+  border-radius: 5px 50px 50px 5px;
+  text-shadow: 3px 3px black;
+  box-shadow: 5px 5px 10px grey;
+  font-family: "magmawave_capsbold";
+}
+#about-me-title,
+#projects-title,
+#contact-title {
+  border-bottom: 2px groove coral;
+  margin-bottom: 1%;
+}
+
+/* projects  */
+#all-projects {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.project {
+  display: inline-flex;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  margin: 30px;
+  box-shadow: 5px 5px 10px;
+}
+.project-image {
+  width: 300px;
+  height: 200px;
+  border: 5px groove coral;
+}
+.project-title {
+  position: relative;
+  font-style: italic;
+  bottom: 100px;
+
+  background: linear-gradient(
+    173deg,
+    rgba(0, 4, 50, 0.8043418050814075) 0%,
+    rgba(48, 50, 218, 0.5) 25%,
+    rgba(97, 150, 255, 0.5970588919161415) 52%,
+    rgba(0, 30, 89, 0.5970588919161415) 69%
+  );
+  background-color: white;
+  color: blue;
+  border: 3px groove lightcoral;
+
+  text-shadow: 1px 1px 8px white, -1px -1px 8px white;
+
+}
+#projects-lead{
+  font-weight: bolder;
+  font-size: 22px;
+  border-bottom: 3px groove lightcoral;
+}
+/* end projects  */
+.container {
+  z-index: 1;
+}
+footer {
+  margin-top: 5%;
+  padding: 0%;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  border-top: 2px groove darkblue;
+  background: linear-gradient(
+    173deg,
+    rgba(0, 4, 50, 0.8043418050814075) 0%,
+    rgba(48, 50, 218, 0.5) 25%,
+    rgba(97, 150, 255, 0.5970588919161415) 52%,
+    rgba(0, 30, 89, 0.5970588919161415) 69%
+  );
+  background-color: white;
+  z-index: 5;
+  font-size: x-large;
+}
+#footer-row {
+  margin: 0;
+}
+@media only screen and (max-width:980px) {
+  /* For mobile phones: */
+  p {
+    font-size: xx-large;
+  }
+  #footer-link{
+    font-size: x-large;
+  }
+  .project {
+    width: 250px;
+    height: 175px;
+  }
+  .project-image {
+    width: 250px;
+    height: 175px;
+  }
+}
+/* fonts  */
+@font-face {
+  font-family: "magmawave_capsbold";
+  src: url("/fonts/magmaWaveWoff/magmawave_caps-webfont.woff2") format("woff2"),
+    url("/fonts/magmaWaveWoff/magmawave_caps-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "made_mirageblack";
+  src: url("/fonts/madeMirageWoff/made_mirage_black_personal_use-webfont.woff2")
+      format("woff2"),
+    url("/fonts/madeMirageWoff/made_mirage_black_personal_use-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "made_miragebold";
+  src: url("/fonts/madeMirageWoff/made_mirage_bold_personal_use-webfont.woff2")
+      format("woff2"),
+    url("/fonts/madeMirageWoffmade_mirage_bold_personal_use-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "made_miragemedium";
+  src: url("/fonts/madeMirageWoffmade_mirage_medium_personal_use-webfont.woff2")
+      format("woff2"),
+    url("/fonts/madeMirageWoffmade_mirage_medium_personal_use-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "made_mirageregular";
+  src: url("/fonts/madeMirageWoffmade_mirage_regular_personal_use-webfont.woff2")
+      format("woff2"),
+    url("/fonts/madeMirageWoffmade_mirage_regular_personal_use-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "made_miragethin";
+  src: url("/fonts/madeMirageWoffmade_mirage_thin_personal_use-webfont.woff2")
+      format("woff2"),
+    url("/fonts/madeMirageWoffmade_mirage_thin_personal_use-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
