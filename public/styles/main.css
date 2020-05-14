@@ -25,6 +25,9 @@ body {
   position: fixed;
   width: 100%;
 }
+.profile-link{
+  margin-top: 15px;
+}
 #profile-picture {
   width: 20%;
   float: left;
