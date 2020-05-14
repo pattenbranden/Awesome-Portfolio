@@ -26,6 +26,7 @@ body {
   width: 100%;
 }
 .profile-link{
+  font-size: large;
   margin-top: 15px;
   margin-left: 15px;
 }
