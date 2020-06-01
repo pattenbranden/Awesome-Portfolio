@@ -16,7 +16,7 @@ module.exports = function(app) {
       res.render("projects");
   });
   app.get("/resume", function(req, res) {
-      res.sendFile(path.join(__dirname, "../public/resume/Branden-Patten.pdf"));
+      res.sendFile(path.join(__dirname, "../public/resume/Branden-Patten-Resume.docx"));
   });
 
   // Load example page and pass in an example by id
