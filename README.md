@@ -9,6 +9,8 @@ I also learned about incoroporating custom fonts on the server as "woff" files, 
 
 Included are links to my linked-in and github as well as a link to serve my resume as a docx file.
 
+![Portfolio Image](https://raw.githubusercontent.com/pattenbranden/Awesome-Portfolio/master/portfolio.PNG)
+
 ## Getting Started
 
 Open [the live demonstration](https://aqueous-bayou-30364.herokuapp.com/) in your browser.
